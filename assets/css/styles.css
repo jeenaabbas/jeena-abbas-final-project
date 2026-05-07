@@ -224,3 +224,29 @@ transform:translateY(0);
 }
 
 }
+/* CAREER INFO SECTIONS */
+
+.career-section{
+
+margin-top:30px;
+
+padding:25px;
+
+background:#f7f7f7;
+
+border-radius:16px;
+
+text-align:left;
+}
+
+.career-section h3{
+
+margin-bottom:12px;
+
+font-size:1.3rem;
+}
+
+.career-section p{
+
+line-height:1.7;
+}
