@@ -1,8 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 const questions = document.querySelectorAll('.question')
-
 const answers = document.querySelectorAll('.answer')
-
 const progressBar = document.getElementById('progressBar')
+
+/* QUIZ SECTION */
+
+if(questions.length > 0){
 
 let currentQuestion = 0
 
@@ -67,6 +71,10 @@ localStorage.setItem('careerResult', highestCareer)
 window.location.href = 'result.html'
 
 }
+
+}
+
+/* RESULT PAGE SECTION */
 
 const careerTitle =
 document.getElementById('careerTitle')
@@ -154,6 +162,8 @@ software:'Blender, Maya, Photoshop'
 
 const selectedCareer = careers[result]
 
+if(selectedCareer){
+
 careerTitle.innerText = selectedCareer.name
 
 document.getElementById('careerImage').src =
@@ -169,3 +179,7 @@ document.getElementById('careerSoftware').innerText =
 selectedCareer.software
 
 }
+
+}
+
+})
