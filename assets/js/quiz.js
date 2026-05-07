@@ -217,4 +217,3 @@ careers[result].day
 }
 
 })
-})
