@@ -4,9 +4,10 @@
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Career Quiz</title>
+<title>Quiz</title>
 
 <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -14,77 +15,43 @@
 
 <body>
 
-<header class="quiz-header">
+<div class="quiz-wrapper">
 
 <h1>Design Career Quiz</h1>
-
-<p>Choose the answer that fits you best.</p>
-
-</header>
-
-<!-- Progress Bar -->
 
 <div class="progress-container">
 <div class="progress-bar" id="progressBar"></div>
 </div>
 
-<!-- Quiz Container -->
-
-<section class="quiz-container">
-
-<!-- Question 1 -->
+<!-- QUESTION 1 -->
 
 <div class="question active">
 
-<h2>1. What kind of creative work sounds the most exciting?</h2>
+<h2>1. What creative work sounds most exciting?</h2>
 
 <button class="answer" data-career="ux">
-Designing an app people use every day
-</button>
-
-<button class="answer" data-career="brand">
-Creating logos and brand identities
-</button>
-
-<button class="answer" data-career="motion">
-Bringing graphics to life through animation
-</button>
-
-<button class="answer" data-career="illustration">
-Drawing characters or scenes
-</button>
-
-</div>
-
-<!-- Question 2 -->
-
-<div class="question">
-
-<h2>2. Which project role do you naturally take on?</h2>
-
-<button class="answer" data-career="product">
-Organizer and planner
+Designing apps
 </button>
 
 <button class="answer" data-career="graphic">
-Visual designer
+Creating logos
 </button>
 
-<button class="answer" data-career="creative">
-Idea generator
+<button class="answer" data-career="motion">
+Animating graphics
 </button>
 
-<button class="answer" data-career="web">
-Technical problem solver
+<button class="answer" data-career="illustration">
+Drawing artwork
 </button>
 
 </div>
 
-<!-- Question 3 -->
+<!-- QUESTION 2 -->
 
 <div class="question">
 
-<h2>3. What software interests you most?</h2>
+<h2>2. What software interests you most?</h2>
 
 <button class="answer" data-career="ux">
 Figma
@@ -98,90 +65,88 @@ Illustrator
 After Effects
 </button>
 
-<button class="answer" data-career="game">
-Blender
+<button class="answer" data-career="web">
+VS Code
 </button>
 
 </div>
 
-<!-- Question 4 -->
+<!-- QUESTION 3 -->
 
 <div class="question">
 
-<h2>4. What would you rather create?</h2>
+<h2>3. Which project sounds most fun?</h2>
 
 <button class="answer" data-career="ux">
-A mobile app interface
+Redesigning Spotify
 </button>
 
-<button class="answer" data-career="brand">
-A clothing brand identity
+<button class="answer" data-career="graphic">
+Creating a brand identity
 </button>
 
 <button class="answer" data-career="motion">
-An animated title sequence
+Making animated titles
 </button>
 
 <button class="answer" data-career="web">
-A portfolio website
+Building a website
 </button>
 
 </div>
 
-<!-- Question 5 -->
+<!-- QUESTION 4 -->
 
 <div class="question">
 
-<h2>5. What inspires you most online?</h2>
+<h2>4. What inspires you most online?</h2>
 
 <button class="answer" data-career="ux">
-Clean app interfaces
+App interfaces
 </button>
 
-<button class="answer" data-career="brand">
+<button class="answer" data-career="graphic">
 Brand campaigns
 </button>
 
 <button class="answer" data-career="motion">
-Animated videos
+Animation reels
 </button>
 
 <button class="answer" data-career="illustration">
-Fan art and digital paintings
+Digital art
 </button>
 
 </div>
 
-<!-- Question 6 -->
+<!-- QUESTION 5 -->
 
 <div class="question">
 
-<h2>6. Which sounds most satisfying?</h2>
+<h2>5. Which describes you best?</h2>
 
 <button class="answer" data-career="ux">
-Solving user frustrations
+Problem solver
 </button>
 
 <button class="answer" data-career="graphic">
-Creating a recognizable brand
+Creative thinker
 </button>
 
 <button class="answer" data-career="motion">
-Making something move perfectly
+Storyteller
 </button>
 
-<button class="answer" data-career="illustration">
-Finishing a detailed illustration
+<button class="answer" data-career="web">
+Tech-focused
 </button>
 
 </div>
 
-</section>
-
-<!-- IMPORTANT -->
-<!-- JavaScript goes right before closing body -->
+</div>
 
 <script src="assets/js/quiz.js"></script>
 
 </body>
+
 </html>
